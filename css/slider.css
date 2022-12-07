@@ -1,0 +1,39 @@
+.section{
+    width: 1200px;
+    padding: 0 15px;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.41;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.slider{
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.slider__text{
+    width: 370px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.slick-prev:before {
+    content: '←';
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(8, 31, 133);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
